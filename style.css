@@ -236,6 +236,67 @@ text-decoration: none;
 }
 
 @media only screen and (max-width: 768px){
+  
+  #navbarSupportedContent > ul > li.nav-item.active_link > a{
+    width: 20%;
+    text-align: center;
+  }
+
+  .hero_container{
+    padding: 100px 10px;
+  }
+
+  .hero_text {
+    padding-bottom: 10px;
+    width: 90%;
+    font-size: 30px;
+  }
+
+  .hero.container-fluid > div > form > input{
+    width: 250px;
+    height: 40px;
+  }
+  
+  .hero.container-fluid > div > form > button {
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  /* Main */
+
+  .main{
+    margin-top: 50px;
+  }
+  
+  .heading{
+    font-size: 24px;
+    width: 100%;
+  }
+  
+  .training{
+    margin-top: 50px;
+  }
+
+  /*Register*/
+
+  .register{
+    background: #0267C1;
+    margin-top: 50px;
+  }
+  
+  body > section.register > div > form > input{
+    width: 250px!important;
+    height: 40px;
+  }
+  
+  body > section.register > div > form > button{
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  /*Fotter*/
 
   .footer_details{
     display: grid;
